@@ -25,7 +25,7 @@ A task management application built with React. The app allows users to:
 1. **Clone the repository:**
 
 ```bash
-git clone [https://github.com/yourusername/task-manager-app.git](https://github.com/yourusername/task-manager-app.git)
+git clone [https://github.com/Rijish13Ahuja/Task-Management-APP.git]
 ```
 
 2. **Navigate to the project directory:**
