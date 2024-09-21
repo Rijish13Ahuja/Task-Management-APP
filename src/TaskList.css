@@ -1,0 +1,177 @@
+.task-list {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 20px;
+    color: #004d40;
+  }
+  
+  .add-task-btn {
+    background-color: #004d40;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .add-task-btn:hover {
+    background-color: #003731;
+  }
+  
+  .task-filters {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .task-filters button {
+    background-color: transparent;
+    border: none;
+    color: #004d40;
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  .task-filters button:hover {
+    background-color: #e0f2f1;
+  }
+  
+  .task-item {
+    background-color: #f5f5f5;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+  }
+  
+  .task-item.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+  }
+  
+  .task-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .task-item h2 {
+    color: black; 
+  }
+  
+  .task-details .description,
+  .task-details .due-date {
+    color: green; 
+  }
+  
+  .task-details p {
+    margin: 5px 0;
+    color: black; 
+  }
+  
+  .priority-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+  }
+  
+  .priority-dot.high {
+    background-color: red;
+  }
+  
+  .priority-dot.medium {
+    background-color: orange;
+  }
+  
+  .priority-dot.low {
+    background-color: blue;
+  }
+  
+  .expand-toggle {
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .task-details {
+    margin-top: 10px;
+    padding-left: 20px;
+    transition: max-height 0.3s ease-out;
+    overflow: hidden;
+  }
+  
+  
+  .edit-btn,
+  .delete-btn {
+    background-color: #004d40;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .delete-btn {
+    background-color: #e74c3c;
+  }
+  
+  .edit-btn:hover,
+  .delete-btn:hover {
+    background-color: #003731;
+  }
+  
+  .dark-mode {
+    background-color: #222; 
+    color: white; 
+  }
+  
+  .dark-mode .task-list {
+    background-color: #333; 
+  }
+  
+  .dark-mode .task-item {
+    background-color: #444; 
+  }
+  
+  .dark-mode .task-item h2 {
+    color: #a8e6cf; 
+  }
+  
+  .dark-mode .task-details .description,
+  .dark-mode .task-details .due-date {
+    color: #ccc; 
+  }
+  
+  .dark-mode .task-details p {
+    color: white;
+  }
+  
+  .dark-mode .task-filters button {
+    color: #a8e6cf; 
+  }
+  
+  .dark-mode .add-task-btn {
+    background-color: #004d40;
+    color: white; 
+  }
+  
